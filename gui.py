@@ -1,3 +1,8 @@
+import os
+os.environ['MPLBACKEND'] = 'tkagg'
+
+import matplotlib
+import matplotlib.pyplot as plt
 import argparse
 import locale
 import os
